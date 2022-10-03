@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --font-titulo: Passion One, san-serif;
+    --font-corpo: Sriracha, cursive;
+}
+
+header{
+    max-width: 555px;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header>h1{
+    color: white;
+    text-align: center;
+    font-family: var(--font-titulo);
+    font-size: 3em;
+}
+header>p{
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-family: var(--font-titulo);
+    font-size: small;
+}
+header>p>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;   
+}
+
+main{
+    max-width: 555px;
+}
+main>p{
+    font-family: var(--font-corpo);
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    max-width: 190px;
+}
+main>aside{
+    border: 2px solid black;
+    background-color: transparent;
+}
+main>aside>p{
+    font-family: var(--font-corpo);
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    max-width: 190px;
+}
+main>aside>p#diferente{
+    
+    color: white;
+    background-color: rgba(128, 128, 128, 0.356);
+}
