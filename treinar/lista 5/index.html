@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista 5</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th{
+            text-align: right;
+        }
+        th.titulo{
+            text-align: left;
+            color: green;
+            font-weight: bold;
+            font-size: 1.2em;
+            padding-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="2px" cellpading="2px">
+    <form method="get">
+        <tr>
+            <td><input type="hidden" name="vazio"></td>
+            <th class="titulo">Contato IFBA</th>
+        </tr>
+
+        <tr>
+            <td><input type="hidden" name="vazio"></td>
+            <td>Rua José Rodrigues dos Santos, S/N - Bairro Nobre<br>Brumado - BA - Brasil<br>Telefone (77) 3441-2405</td>
+        </tr>
+
+        <tr>
+            <th scope="row">Nome:</th>
+            <td><input type="text" name="nome" id="nome" size="55"></td>
+        </tr>
+
+        <tr>
+            <th scope="row">E-mail:</th>
+            <td><input type="email" name="email" id="email" size="55"></td>
+        </tr>
+
+        <tr>
+            <th scope="row">Assunto:</th>
+            <td><input type="text" name="assunto" id="assunto" size="55"></td>
+        </tr>
+
+        <tr>
+            <th scope="row">Mensagem:</th>
+            <td><textarea name="sms" id="sms" cols="50" rows="5"></textarea></td>
+        </tr>
+
+        <tr>
+            <td><input type="hidden" name=""></td>
+            <td><input type="submit" value="Enviar"></td>
+        </tr>
+    </form>
+    </table>
+</body>
+</html>
