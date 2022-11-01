@@ -26,42 +26,42 @@ main{
     margin: 50px auto;
 }
 
-div#imagem > picture > img{
+div.imagem > picture > img{
     width: 400px;
     border-radius: 20px 20px 0px 0px;
 }
 
-div#texto > p#perf{
+div.texto > p.perf{
     font-family: var(--font1);
     margin: 20px;
     font-size: 14px;
     letter-spacing: 5px;
 }
-div#texto > h1{
+div.texto > h1{
     color: rgb(28, 35, 43);
     font-family: var(--font2);
     margin: 20px;
     text-align: left;
 }
-div#texto > p{
+div.texto > p{
     color: rgb(108, 114, 137);
     font-family: var(--font1);
     margin: 20px;
     font-size: 14px;
 }
-div#texto > h2{
+div.texto > p.valor{
     color: rgb(60, 128, 103);
     font-family: var(--font2);
     display: inline-block;
     margin: 20px -10px 20px 20px;
     font-size: 2em;
 }
-div#texto > p#preço{
+div.texto > p.preço{
     font-family: var(--font2);
     display: inline-block;
 }
 
-div#botao{
+div.botao{
     text-align: center;
     background-color: rgb(60, 128, 103);
     width: 300px;
@@ -69,14 +69,14 @@ div#botao{
     border-radius: 10px;
     margin: auto;
 }
-div#botao > p{
+div.botao > p{
     color: white;
     font-family: var(--font1);
     font-weight: bold;
     display: inline-block;
     padding-top: 15px;
 }
-div#botao > span{
+div.botao > span{
     color: white;
     display: inline-block;
     padding-right: 8px;
@@ -88,18 +88,18 @@ div#botao > span{
         width: 800px;
         margin: 150px auto;
     }
-    div#imagem > picture > img{
+    div.imagem > picture > img{
         height: 500px;
         width: 333px;
         float: left;
         border-radius: 20px 0px 0px 20px;
         margin-right: 50px;
     }
-    div#texto > p#perf{
+    div.texto > p.perf{
         display: block;
         padding-top: 50px;
     }
-    div#botao{
+    div.botao{
         margin: 50px 420px;
     }
 }
