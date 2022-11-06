@@ -35,11 +35,18 @@ div.imagem > img{
     left: 50%;
     transform: translate(-50%);
 }
+.imagem>img:hover{
+    cursor: pointer;
+}
 
 div.texto > h1{
     text-align: left;
     color: white;
-    padding: 20px 0px;
+    margin: 20px 0px;
+}
+.texto>h1:hover{
+    color: #00FFF8;
+    cursor: pointer;
 }
 div.texto > p{
     color: rgb(122, 141, 168);
@@ -73,4 +80,8 @@ div.texto > p.criador{
 }
 div.texto > p.criador > span{
     color: white;
+}
+.texto>.criador>span:hover{
+    color: #00FFF8;
+    cursor: pointer;
 }
