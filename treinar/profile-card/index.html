@@ -6,86 +6,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <title>Profile card</title>
   <link rel="stylesheet" href="estilo/style.css">
-  <style>
-    *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, Helvetica, sans-serif;
-    }
-    body{
-      background-color: rgb(25, 162, 174);
-      position: relative;
-      height: 100vh;
-    }
-    main{
-      height: 400px;
-      width: 350px;
-      border-radius: 20px;
-      background-color: white;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-    }
-    h1{
-      font-size: 18px;
-    }
-    p{
-      font-size: 18px;
-    }
-
-    .fundo1{
-      background-color: rgb(25, 162, 174);
-      background-image: url(images/bg-pattern-top.svg);
-      background-position: right bottom;
-      background-repeat: no-repeat;
-      height: 50%;
-      width: 60%;
-    }
-    .fundo2{
-      float: right;
-      background-color: rgb(25, 162, 174);
-      background-image: url(images/bg-pattern-bottom.svg);
-      background-position: left top;
-      background-repeat: no-repeat;
-      height: 50%;
-      width: 50%;
-    }
-
-    main > img.fundo{
-      border-radius: 20px 20px 0px 0px;
-    }
-    main > img.perfil{
-      position: absolute;
-      border-radius: 50%;
-      top: 35%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      box-sizing: border-box;
-      border: 5px solid white;
-    }
-
-    .nome{
-      text-align: center;
-      margin-top: 70px;
-    }
-    .nome > h1{
-      display: inline-block;
-    }
-    .nome > p{
-      display: inline-block;
-      margin-left: 10px;
-    }
-    .cidade{
-      text-align: center;
-      margin-top: 15px;
-    }
-    hr{
-      margin-top: 40px;
-      border: 1px solid rgba(150, 150, 150, 0.281);
-    }
-  </style>
 </head>
 <body>
   <div class="fundo1"></div>
@@ -99,17 +19,17 @@
     </section>
     <section class="cidade">London</section>
     <hr>
-    <section>
-      80K
-      Followers
+    <section class="status">
+      <h1>80K</h1>
+      <p>Followers</p>
     </section>
-    <section>
-      803K
-      Likes
+    <section class="status">
+      <h1>803K</h1>
+      <p>Likes</p>
     </section>
-    <section>
-      1.4K
-      Photos
+    <section class="status">
+      <h1>1.4K</h1>
+      <p>Photos</p>
     </section>
   </main>
 </body>
