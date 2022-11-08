@@ -14,27 +14,91 @@
       font-family: Arial, Helvetica, sans-serif;
     }
     body{
+      background-color: rgb(25, 162, 174);
       position: relative;
-      height: 95vh;
+      height: 100vh;
     }
     main{
       height: 400px;
-      width: 300px;
-      background-color: gray;
+      width: 350px;
+      border-radius: 20px;
+      background-color: white;
       position: absolute;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
     }
+    h1{
+      font-size: 18px;
+    }
+    p{
+      font-size: 18px;
+    }
+
+    .fundo1{
+      background-color: rgb(25, 162, 174);
+      background-image: url(images/bg-pattern-top.svg);
+      background-position: right bottom;
+      background-repeat: no-repeat;
+      height: 50%;
+      width: 60%;
+    }
+    .fundo2{
+      float: right;
+      background-color: rgb(25, 162, 174);
+      background-image: url(images/bg-pattern-bottom.svg);
+      background-position: left top;
+      background-repeat: no-repeat;
+      height: 50%;
+      width: 50%;
+    }
+
+    main > img.fundo{
+      border-radius: 20px 20px 0px 0px;
+    }
+    main > img.perfil{
+      position: absolute;
+      border-radius: 50%;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      box-sizing: border-box;
+      border: 5px solid white;
+    }
+
+    .nome{
+      text-align: center;
+      margin-top: 70px;
+    }
+    .nome > h1{
+      display: inline-block;
+    }
+    .nome > p{
+      display: inline-block;
+      margin-left: 10px;
+    }
+    .cidade{
+      text-align: center;
+      margin-top: 15px;
+    }
+    hr{
+      margin-top: 40px;
+      border: 1px solid rgba(150, 150, 150, 0.281);
+    }
   </style>
 </head>
 <body>
+  <div class="fundo1"></div>
+  <div class="fundo2"></div>
   <main>
-    <section>
-      Victor Crest
-      26
+    <img class="fundo" src="images/bg-pattern-card.svg" alt="Fundo-do-Card">
+    <img class="perfil" src="images/image-victor.jpg" alt="Perfil">
+    <section class="nome">
+      <h1>Victor Crest</h1>
+      <p>26</p>
     </section>
-    <section>London</section>
+    <section class="cidade">London</section>
+    <hr>
     <section>
       80K
       Followers
