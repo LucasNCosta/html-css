@@ -36,14 +36,40 @@
   .fundo2{
     width: 96.6vw;
     height: 50vh;
-    margin-top: 90%;
+    margin-top: 550px;
     background-color: white;
     background-image: url(../images/bg-pattern-bottom-mobile.svg);
     background-repeat: no-repeat;
     background-position: top center;
   }
+  .desktop1{
+    display: none;
+    position: absolute;
+    top: 0%;
+    background-color: transparent;
+    background-image: url(../images/bg-pattern-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: auto;
+    width: 36%;
+    height: 370px;
+  }
+  .desktop2{
+    display: none;
+    float: right;
+    position: absolute;
+    top: 10.3%;
+    left: 34.8%;
+    background-color: transparent;
+    background-image: url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    width: 65.2%;
+    height: 685px;
+  }
 
   main > h1{
+    font-weight: bolder;
     text-align: center;
     color: var(--cor1);
     padding: 50px 60px 30px 60px;
@@ -110,6 +136,3 @@
     margin-right: 45px;
     margin-left: 45px;
   }
-/*
-- Desktop: 1440px
-*/
