@@ -126,7 +126,7 @@ body{
     left: 75%;
   }
   
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1440px){
   main{
     width: 1200px;
     height: 700px;
