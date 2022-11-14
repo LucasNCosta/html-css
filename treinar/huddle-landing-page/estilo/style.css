@@ -16,9 +16,13 @@
 }
 
 body{
-    background: var(--violet) url(../images/bg-mobile.svg) no-repeat top center;
+  background-color: var(--violet);
+    /* background: var(--violet) url(../images/bg-mobile.svg) no-repeat top center; */
     position: relative;
     height: 100vh;
+  }
+  .fundo{
+    text-align: center;
   }
   main{
     width: 375px;
@@ -122,6 +126,48 @@ body{
     left: 75%;
   }
   
+@media screen and (min-width: 1000px){
+  main{
+    width: 1200px;
+    height: 700px;
+  }
+  main > img{
+    margin-left: 60px;
+    padding-top: 60px;
+    width: 200px;
+  }
+  main > .mockup{
+    margin-left: 60px;
+    width: 600px;
+  }
+  main > h1{
+    display: inline-block;
+    text-align: left;
+    margin-right: 80px;
+    position: absolute;
+    top: 33%;
+    left: 60%;
+  }
+  main > p{
+    text-align: left;
+    padding-right: 20px;
+    position: absolute;
+    top: 50%;
+    left: 58%;
+  }
+  main > button{
+    position: absolute;
+    top: 65%;
+    left: 70%;
+  }
+  main > .icones{
+    left: 90%;
+  }
+  .fundo{
+    position: absolute;
+    left: 10%;
+  }
+}
 /*
 - Desktop: 1440px
  */
