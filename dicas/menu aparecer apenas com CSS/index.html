@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Checkbox</title>
+    <style>
+        input{
+            opacity: 0;
+        }
+        input:checked ~ div{
+            display: block;
+        }
+        div{
+            display: none;
+            height: 100px;
+            width: 50px;
+            background-color: lightcoral;
+            color: blue;
+            position: absolute;
+            left: 50%;
+        }
+    </style>
+</head>
+<body>
+    <input type="checkbox" name="menu" id="imenu">
+    <label for="imenu">icone de menu</label>
+    <div>
+        MENU
+        teste1
+        teste2
+        teste3
+    </div>
+</body>
+</html>
